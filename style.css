@@ -1,0 +1,59 @@
+.navbar{
+    background: linear-gradient(to right,#0097e6,#273c75);
+}
+
+/* ---------| Home section |-------------- */
+#home{
+    background: linear-gradient(to right,#0097e6,#273c75);
+    margin-top: 15px;
+}
+
+/* ---------------secivesection -----------*/
+.title::after{
+    content: '';
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 5px;
+    background: #0097e6;
+    border-radius: 3px;
+    transform: translateY(10px);
+}
+.service-image{
+    width: 100px;
+}
+@media(max-width:767px){
+    .service-image{
+        width: 0px;
+    }
+}
+
+.service-button{
+    background: linear-gradient(to right,#0097e6,#0b4d70) !important;
+}
+
+/*--------- about -----------*/
+.about-bg{
+    background-color: rgb(235, 235, 235);
+}
+
+/*------------- testimonial------------------ */
+.user-textimonial img{
+    width: 80px;
+    height: 80px;
+}
+
+.user-textimonial{
+    border-left: 5px solid #0097e6;
+
+}
+
+/* ---------contact------- */
+.social-media img{
+    width: 60px;
+    transition: .5s;
+}
+.social-media img:hover{
+   transform: translateY(-10px);
+    
+}
